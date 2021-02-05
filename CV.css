@@ -1,0 +1,60 @@
+/* --------------------COLUMNA IZQUIERDA--------------------- */
+.caja1{
+    border: solid black 2px;
+    width: fit-content;
+}
+.caja2{
+    border: solid black 2px;
+    width: fit-content;
+}
+
+.caja3{
+    border: solid black 2px;
+    width: fit-content;
+    
+}
+
+.columnaizda2{
+    border: solid rgb(190, 2, 2) 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.columnaizda {
+    border: solid rgb(136, 15, 216) 2px;
+    width: 400px;
+    background-color: gray;
+}
+
+/* ------------------COLUMNA DERECHA----------------------- */
+
+.caja4{
+    border: solid black 2px;
+    width: fit-content;
+}
+
+.caja5{
+    border: solid black 2px;
+    width: fit-content;
+}
+
+.caja6{
+    border: solid black 2px;
+    width: fit-content;
+}
+
+.columnadere2{
+    border: solid rgb(8, 235, 27) 2px;
+}
+
+.columnadere{
+    border: solid rgb(14, 189, 233) 2px;
+}
+
+/* ---------------------BODY------------------------ */
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+}
