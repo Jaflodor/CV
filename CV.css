@@ -1,55 +1,121 @@
 /* --------------------COLUMNA IZQUIERDA--------------------- */
+
+.foto{
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 20px;
+    
+    
+}
 .caja1{
-    border: solid black 2px;
+    
     width: fit-content;
+    margin-bottom: 75px;
 }
 .caja2{
-    border: solid black 2px;
+    
     width: fit-content;
+    margin-bottom: 75px;
 }
 
 .caja3{
-    border: solid black 2px;
+    
     width: fit-content;
     
 }
 
+.parrafoizda{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tituloizda{
+    color: rgb(230, 178, 120);
+}
+
 .columnaizda2{
-    border: solid rgb(190, 2, 2) 2px;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 .columnaizda {
-    border: solid rgb(136, 15, 216) 2px;
+    
     width: 400px;
-    background-color: gray;
+    background-color: rgb(155, 146, 146);
 }
 
 /* ------------------COLUMNA DERECHA----------------------- */
 
+.nombre{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    color: rgb(230, 178, 120);
+}
+
+.puesto{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: rgb(155, 146, 146);
+    color: white;
+    font-size: 18px;
+}
 .caja4{
-    border: solid black 2px;
+    padding-right: 25px;
     width: fit-content;
 }
 
 .caja5{
-    border: solid black 2px;
+    
     width: fit-content;
 }
 
 .caja6{
-    border: solid black 2px;
+    
     width: fit-content;
 }
 
+.tituloderecha{
+    font-weight: bold;
+    color: rgb(230, 178, 120);
+    
+}
+
+.subtituloderecha{
+    color: grey;
+    font-size: medium;
+}
+
+.listaderecha{
+    list-style: square;
+    padding-left: 25px;
+}
+
 .columnadere2{
-    border: solid rgb(8, 235, 27) 2px;
+    
+    color: rgb(155, 146,146);
+    text-align: left;
+    width:auto;
+    
+    margin-left: 50px;
+    
 }
 
 .columnadere{
-    border: solid rgb(14, 189, 233) 2px;
+    background-color: rgb(243, 237, 237);
+    
+    
 }
 
 /* ---------------------BODY------------------------ */
