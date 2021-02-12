@@ -5,13 +5,16 @@
     width: 250px;
     height: 250px;
     margin: auto;
-    margin-bottom: 150px;
-    margin-top: 20px;
+    align-content: center;
+    display: flex;
     
     
 }
+.piedefoto{
+    display: none;
+}
 .caja1{
-    
+    margin-top: 30px;
     width: fit-content;
     margin-bottom: 75px;
 }
@@ -36,6 +39,7 @@
 
 .tituloizda{
     color: rgb(230, 178, 120);
+    
 }
 
 .columnaizda2{
@@ -43,12 +47,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
 
 .columnaizda {
     
     width: 400px;
     background-color: rgb(155, 146, 146);
+    padding-top: 25px;
 }
 
 /* ------------------COLUMNA DERECHA----------------------- */
@@ -163,6 +169,14 @@
         margin: auto;
         margin-bottom: 50px;
         margin-top: 20px;
+        
+        
+    }
+    .piedefoto{
+        display: block;
+        text-align: center;
+        color: rgb(230, 178, 120);
+        font-size: 30px;
     }
     .caja1{
         margin-bottom: auto;
@@ -212,6 +226,10 @@
         padding-bottom: 35px;
         margin-top: 0px;
         margin-bottom: 0px;
+        display: none;
+    }
+    .puesto{
+        display: none;
     }
     #tituloderechaid{
         margin-bottom: 19.92px;
@@ -240,6 +258,7 @@
     .subsubtituloderecha{
         margin-top: 0px;
     }
+    
     /*---------------------CAJA 4 --------------------------*/
     .caja4{
         padding-right: 0px;
@@ -262,12 +281,13 @@
         margin-top: 5px;
         
     }
-    .caja5:hover > .subtituloderecha{
-        display: block;
-    }
     .caja5:hover > .subsubtituloderecha{
         display: block;
     }
+    .caja5:hover > .subtituloderecha{
+        display: block;
+    }
+    
     .caja5:hover > .listaderecha{
         display: block;
     }
