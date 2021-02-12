@@ -69,7 +69,7 @@
     margin-right: 35px;
     background-color: rgb(155, 146, 146);
     color: white;
-    font-size: 18px;
+    font-size: 22px;
 }
 .caja4{
     padding-right: 25px;
@@ -90,24 +90,32 @@
     font-weight: bold;
     color: rgb(230, 178, 120);
     
+    
 }
 
 .subtituloderecha{
     color: grey;
-    font-size: medium;
+    font-size: 20px;
+
+}
+
+.subsubtituloderecha{
+    font-size: 20px;
+
+
 }
 
 .listaderecha{
     list-style: square;
     padding-left: 25px;
+    font-size: 18px;
 }
 
 .columnadere2{
     
     color: rgb(155, 146,146);
     text-align: left;
-    width:auto;
-    
+    width:auto;    
     margin-left: 50px;
     
 }
