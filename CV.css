@@ -146,6 +146,10 @@
 /*-------------------------MEDIAQUERIS-------------------------*/
 /*-------------------------------------------------------------*/
 
+/*--------------------------------------------------------------*/
+/*--------------------------MOVIL-------------------------------*/
+/*--------------------------------------------------------------*/
+
 
 @media all and (max-width: 768px){
 
@@ -186,6 +190,7 @@
         margin-bottom: 5px;
         margin-left: 5px;
         margin-right: 5px;
+        cursor: pointer;
         
     }
     .caja2{
@@ -194,20 +199,17 @@
         margin-bottom: 5px;
         margin-left: 5px;
         margin-right: 5px;
+        cursor: pointer;
     }
     .caja3{
         margin-bottom: auto;
         border-style: outset;
         margin-left: 5px;
         margin-right: 5px;
-        
-    }
-    .tituloizda:hover{
-        
         cursor: pointer;
-    
+        
     }
-    
+        
     .caja1:hover > .parrafoizda{
         display: block;
         
@@ -218,6 +220,7 @@
     }
     .caja3:hover > .parrafoizda{
         display: block;
+        
         
     }
 
@@ -257,6 +260,8 @@
     }
     .columnadere2{
         margin-left: 0px;
+        
+        
     }
     
     
@@ -264,6 +269,8 @@
     .caja4{
         padding-right: 0px;
         border-style: outset;  
+        text-align: center;
+        cursor: pointer;
     
     }
     .caja4:hover > .subtituloderecha{
@@ -275,11 +282,18 @@
     .caja4:hover > .listaderecha{
         display: block;
     }
+
+    /*---------------------ESPACIO----------------------*/
+    .espacio{
+        display: none;
+    }
     /*----------------------CAJA  5-----------------------------*/
 
     .caja5{
         border-style: outset;
         margin-top: 5px;
+        text-align: center;
+        cursor: pointer;
         
     }
     .caja5:hover > .subsubtituloderecha{
@@ -296,21 +310,189 @@
     .caja6{
         margin-top: 5px;
         border-style: outset;
+        text-align: center;
+        cursor: pointer;
     }
     .caja6:hover > .listaderecha {
         display: block;
     }
 
     
+} 
 
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*---------------------------TABLET-----------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
 
+@media all and (min-width:768px){
+
+    /*-----------Cuerpo-------------------*/
+    .cuerpo{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    /*------------Columna de la izquierda-------------*/
+    .columnaizda{
+        width: auto;
+    }
+    .parrafoizda{
+        display: none;
+
+    }
+    .foto{
+        border-radius: 100px;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        
+        
+    }
+    .piedefoto{
+        display: block;
+        text-align: center;
+        color: rgb(230, 178, 120);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .caja1{
+        margin-bottom: auto;
+        border-style: outset;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        
+    }
+    .caja2{
+        margin-bottom: auto;
+        border-style: outset;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .caja3{
+        margin-bottom: auto;
+        border-style: outset;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        
+    }
+        
+    .caja1:hover > .parrafoizda{
+        display: block;
+        
+    }
+    .caja2:hover > .parrafoizda{
+        display: block;
+        
+    }
+    .caja3:hover > .parrafoizda{
+        display: block;
+        
+        
+    }
+
+    /*------------------Columa de la derecha---------------*/
+
+    .nombre{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: none;
+    }
+    .puesto{
+        display: none;
+    }
+    #tituloderechaid{
+        margin-bottom: 19.92px;
+        margin-top: 19.92px;
+    }
+    #tituloderechaid2{
+        margin-top: 19.92px;
+        margin-bottom: 19.92px;
+    }
+
+    .subtituloderecha{
+        display: none;
+    }
+    .subsubtituloderecha{
+        display: none;
+        margin-top: 0px;
+    }
+    .listaderecha{
+        display: none;
+    }
+    .tituloderecha{
+        text-align: center;
+    }
+    .columnadere2{
+        margin-left: 0px;
+        
+        
+    }
     
     
+    /*---------------------CAJA 4 --------------------------*/
+    .caja4{
+        padding-right: 0px;
+        border-style: outset;  
+        text-align: center;
+        cursor: pointer;
     
+    }
+    .caja4:hover > .subtituloderecha{
+        display: block;
+    }
+    .caja4:hover > .subsubtituloderecha{
+        display: block;
+    }
+    .caja4:hover > .listaderecha{
+        display: block;
+    }
+
+    /*---------------------ESPACIO----------------------*/
+    .espacio{
+        display: none;
+    }
+    /*----------------------CAJA  5-----------------------------*/
+
+    .caja5{
+        border-style: outset;
+        margin-top: 5px;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    .caja5:hover > .subsubtituloderecha{
+        display: block;
+    }
+    .caja5:hover > .subtituloderecha{
+        display: block;
+    }
+    
+    .caja5:hover > .listaderecha{
+        display: block;
+    }
+    /*--------------------------CAJA 6--------------------------*/
+    .caja6{
+        margin-top: 5px;
+        border-style: outset;
+        text-align: center;
+        cursor: pointer;
+    }
+    .caja6:hover > .listaderecha {
+        display: block;
+    }
 
     
 } 
-
-@media all and (max-width:1280px){
-
-}
