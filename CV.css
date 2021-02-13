@@ -12,6 +12,7 @@
 }
 .piedefoto{
     display: none;
+    
 }
 .caja1{
     margin-top: 30px;
@@ -177,6 +178,7 @@
         text-align: center;
         color: rgb(230, 178, 120);
         font-size: 30px;
+        font-weight: bold;
     }
     .caja1{
         margin-bottom: auto;
@@ -245,6 +247,7 @@
     }
     .subsubtituloderecha{
         display: none;
+        margin-top: 0px;
     }
     .listaderecha{
         display: none;
@@ -255,9 +258,7 @@
     .columnadere2{
         margin-left: 0px;
     }
-    .subsubtituloderecha{
-        margin-top: 0px;
-    }
+    
     
     /*---------------------CAJA 4 --------------------------*/
     .caja4{
