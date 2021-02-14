@@ -14,6 +14,9 @@
     display: none;
     
 }
+.piedefoto2{
+    display: none;
+}
 .caja1{
     margin-top: 30px;
     width: fit-content;
@@ -53,7 +56,7 @@
 
 .columnaizda {
     
-    width: 400px;
+    width: 35%;
     background-color: rgb(155, 146, 146);
     padding-top: 25px;
 }
@@ -130,6 +133,7 @@
 
 .columnadere{
     background-color: rgb(243, 237, 237);
+    width: auto;
     
     
 }
@@ -244,7 +248,6 @@
         margin-top: 19.92px;
         margin-bottom: 19.92px;
     }
-
     .subtituloderecha{
         display: none;
     }
@@ -328,38 +331,49 @@
 /*--------------------------------------------------------------*/
 /*--------------------------------------------------------------*/
 
-@media all and (min-width:768px){
+@media all and (max-width:1280px){
 
     /*-----------Cuerpo-------------------*/
     .cuerpo{
         display: flex;
         flex-direction: row;
+        width: auto;
+        height: auto;
+        
         
     }
     /*------------Columna de la izquierda-------------*/
+
     .columnaizda{
-        width: auto;
+        width: 50%;
+        height: 100%;
     }
     .parrafoizda{
-        display: none;
+        display: flex;
 
     }
     .foto{
-        border-radius: 100px;
-        width: 150px;
-        height: 150px;
+        border-radius: 150px;
+        width: 175px;
+        height: 175px;
         margin: auto;
         margin-bottom: 50px;
         margin-top: 20px;
-        
-        
+               
     }
     .piedefoto{
-        display: block;
+        display: none;
+        
+    }
+
+    .piedefoto2{
+        
         text-align: center;
         color: rgb(230, 178, 120);
         font-size: 30px;
         font-weight: bold;
+        display: block;
+        
     }
     .caja1{
         margin-bottom: auto;
@@ -411,7 +425,14 @@
         display: none;
     }
     .puesto{
-        display: none;
+        align-content: center;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+        border-style: outset;
+    }
+    .columnadere{
+        width: 50%;
     }
     #tituloderechaid{
         margin-bottom: 19.92px;
@@ -436,7 +457,8 @@
         text-align: center;
     }
     .columnadere2{
-        margin-left: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
         
         
     }
