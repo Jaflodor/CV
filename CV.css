@@ -8,7 +8,6 @@
     align-content: center;
     display: flex;
     
-    
 }
 .piedefoto{
     display: none;
@@ -39,7 +38,9 @@
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
+    
 }
+
 
 .tituloizda{
     color: rgb(230, 178, 120);
@@ -200,7 +201,9 @@
         margin-right: 5px;
         cursor: pointer;
         
+        
     }
+    
     .caja2{
         margin-bottom: auto;
         border-style: outset;
@@ -219,7 +222,7 @@
     }
         
     .caja1:hover > .parrafoizda{
-        display: block;
+        display: none;
         
     }
     .caja2:hover > .parrafoizda{
@@ -523,3 +526,4 @@
 
     
 } 
+
