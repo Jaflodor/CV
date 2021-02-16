@@ -32,18 +32,42 @@
     width: fit-content;
     
 }
-
 .parrafoizda{
     color: white;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
+    animation-name: prueba;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    letter-spacing: .05em;
+    animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
+    
+
+        
+}
+.vision {
+    display:none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+@keyframes prueba {
+
+    from { width: 0 }
+    to { width: 100% }
+
+    
     
 }
 
 
+
 .tituloizda{
     color: rgb(230, 178, 120);
+    cursor: pointer;    
+    width: fit-content;
     
 }
 
@@ -52,6 +76,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    
     
 }
 
@@ -86,16 +111,31 @@
 .caja4{
     padding-right: 25px;
     width: fit-content;
+    animation-name: prueba;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    letter-spacing: .05em;
+    animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
 }
 
 .caja5{
     
     width: fit-content;
+    animation-name: prueba;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    letter-spacing: .05em;
+    animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
 }
 
 .caja6{
     
     width: fit-content;
+    animation-name: prueba;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    letter-spacing: .05em;
+    animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
 }
 
 .tituloderecha{
@@ -200,10 +240,13 @@
         margin-left: 5px;
         margin-right: 5px;
         cursor: pointer;
-        
+        animation-name: prueba;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        letter-spacing: .05em;
+        animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
         
     }
-    
     .caja2{
         margin-bottom: auto;
         border-style: outset;
@@ -211,6 +254,12 @@
         margin-left: 5px;
         margin-right: 5px;
         cursor: pointer;
+        animation-name: prueba;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        letter-spacing: .05em;
+        animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
+        
     }
     .caja3{
         margin-bottom: auto;
@@ -218,11 +267,16 @@
         margin-left: 5px;
         margin-right: 5px;
         cursor: pointer;
+        animation-name: prueba;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        letter-spacing: .05em;
+        animation: 2.5s steps(30, end) blink-caret .5s step-end infinite;
         
     }
         
     .caja1:hover > .parrafoizda{
-        display: none;
+        display: block;
         
     }
     .caja2:hover > .parrafoizda{
